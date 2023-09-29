@@ -170,6 +170,10 @@ button {
 
 /*cel*/
 @media (max-width: 720px) and (orientation:portrait) {
+    body {
+        background-image: url(../assets/img/ai-generated.jpg);
+    }
+
     #imagenes {
         max-width: 90%;
         min-width: 35%;
@@ -199,6 +203,78 @@ button {
         right: -5%;
     }
 
+}
+
+
+@media (max-width: 720px) and (orientation:portrait) {
+    body {
+        background-image: url(../assets/img/ai-generated.jpg);
+    }
+
+    #imagenes {
+        max-width: 90%;
+        min-width: 35%;
+    }
+    
+    #img-activa {
+        max-width: 100%;
+
+    }
+
+    #cont-interno {
+        max-width: 70%;
+        min-height: 25%;
+    }
+
+    #btn-cerrar {
+        top: -5%;
+        right: -8%;
+    }
+
+    #btn-anterior {
+        left: -5%;
+    }
+
+
+    #btn-siguiente {
+        right: -5%;
+    }
+
+}
+
+@media (max-width: 720px) and (orientation: landscape) {
+    body {
+        background-image: url(../assets/img/ai-generated.jpg);
+    }
+
+    #imagenes {
+        max-width: 90%;
+        min-width: 35%;
+    }
+    
+    #img-activa {
+        max-width: 100%;
+
+    }
+
+    #cont-interno {
+        max-width: 70%;
+        min-height: 25%;
+    }
+
+    #btn-cerrar {
+        top: -5%;
+        right: -8%;
+    }
+
+    #btn-anterior {
+        left: -5%;
+    }
+
+
+    #btn-siguiente {
+        right: -5%;
+    }
 }
 
 
