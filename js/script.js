@@ -78,7 +78,7 @@ document.addEventListener('keydown', (event) =>{
 });
 
 
-// cererar lithbox cuando se haga click fuera de la img activa
+// cerrar lightbox cuando se haga click fuera de la img activa
 /*
  document.body.addEventListener('click', (event) => {
   if (event.target !== imagenActiva) {
