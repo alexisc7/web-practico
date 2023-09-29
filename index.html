@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lara descubre el mundo</title>
+        <link rel="stylesheet" href=" https://fonts.googleapis.com/css?family=Material+Icons+Sharp">
+        <link rel="stylesheet" href="css/styles.css">
+        <script defer src="js/script.js"></script>
+
+    </head>
+
+    <body>
+        <main>
+            <section id="imagenes">  
+                <img src="assets/img/cuento.jpg" alt="Cuento llamado 'Lara descubre el mundo' del autor Facundo Falabella.">
+                <img src="assets/img/qr.jpg" alt="QR que enlaza al cuento en youtube">
+            </section>
+
+            <section id="cont-principal">
+                <div id="cont-interno">
+                    <!-- Contenedor para la imagen y el audio -->
+                    <div id="imagen-audio-container">
+                        <img id="img-activa" src="assets/img/cuento.jpg">
+                        
+                        <!-- Audio de fondo -->
+                        <audio controls id="audio-background">
+                            <source src="assets/audio/cuento.mp3" type="audio/mp3">
+                        </audio>
+                        <!-- Fin del audio de fondo -->
+                    </div>
+                    <!-- Fin del contenedor de imagen y audio -->
+
+                    <button id="btn-cerrar" type="button">
+                        <span class="material-icons-sharp">
+                            close
+                        </span>
+                    </button>
+                    <button id="btn-anterior" type="button">
+                        <span class="material-icons-sharp">
+                            arrow_back_ios
+                        </span>
+                    </button>
+                    <button id="btn-siguiente" class="btn-ne" type="button">
+                        <span class="material-icons-sharp">
+                            arrow_forward_ios
+                        </span>
+                    </button>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

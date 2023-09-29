@@ -1,0 +1,279 @@
+/* reset */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url(../assets/img/ai-generated.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/*Galeria de Imagenes*/
+#imagenes {
+    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5vw;
+    max-width: 700px;
+    min-width: 400px;
+    padding: 0 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#imagenes img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform .5s ease;
+    opacity: 0.6;
+}
+
+
+#imagenes img:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease;
+    opacity: 1;
+}
+
+
+/*-----------------new--------------------*/
+#imagen-audio-container {
+    position: relative;
+}
+
+#img-activa {
+    width: 100%;
+    height: auto;
+}
+
+#audio-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.4; 
+    background: transparent;    
+    border: none;
+}
+/*-----------------------------------------*/
+
+#img-activa {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/*Contenedor Principal del Lightbox*/
+
+#cont-principal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.35);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Contenedor interno del Lightbox*/
+
+#cont-interno {
+    padding: 2px;
+    max-width: 700px;
+    min-height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Botones*/
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+#btn-cerrar {
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    font-size: 3rem;
+    transition: transform .6s linear;
+
+}
+
+#btn-cerrar:hover {
+    text-shadow:0 0 5px rgb(203, 239, 255),
+    0 0 10px rgb(223, 244, 253),
+    0 0 20px rgb(233, 248, 255);
+    transform: scale(1.1);
+    transition: transform .3s ease;
+}
+
+#btn-anterior {
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    font-size: 3rem;
+    transition: transform .6s linear;
+}
+
+#btn-anterior:hover {
+    text-shadow:0 0 5px rgb(203, 239, 255),
+    0 0 10px rgb(223, 244, 253),
+    0 0 20px rgb(233, 248, 255);
+    transform: scale(1.2);
+    transition: transform .3s ease;
+}
+
+#btn-siguiente {
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    font-size: 3rem;
+    transition: transform .6s linear;
+}
+
+#btn-siguiente:hover {
+    text-shadow:0 0 5px rgb(203, 239, 255),
+    0 0 10px rgb(223, 244, 253),
+    0 0 20px rgb(233, 248, 255);
+    transform: scale(1.2);
+    transition: transform .3s ease;
+}
+
+
+/*cel*/
+@media (max-width: 720px) and (orientation:portrait) {
+    #imagenes {
+        max-width: 90%;
+        min-width: 35%;
+    }
+    
+    #img-activa {
+        max-width: 100%;
+
+    }
+
+    #cont-interno {
+        max-width: 70%;
+        min-height: 25%;
+    }
+
+    #btn-cerrar {
+        top: -5%;
+        right: -8%;
+    }
+
+    #btn-anterior {
+        left: -5%;
+    }
+
+
+    #btn-siguiente {
+        right: -5%;
+    }
+
+}
+
+
+@media (max-width: 1600px) and (orientation:landscape) {
+    #imagenes {
+        max-width: 90%;
+        min-width: 35%;
+    }
+    
+    #img-activa {
+        max-width: 100%;
+
+    }
+
+    #cont-interno {
+        max-width: 70%;
+        min-height: 25%;
+    }
+
+    #btn-cerrar {
+        top: -3%;
+        right: -8%;
+    }
+
+    #btn-anterior {
+        left: -5%;
+    }
+
+
+    #btn-siguiente {
+        right: -5%;
+    }
+
+}
+
+
+
+
+/*Laptop*/
+@media (max-width: 1024px) {
+    #imagenes {
+        max-width: 100%;
+        min-width: 80%;
+    }
+
+    #img-activa {
+        max-width: 100%;
+
+    }
+
+    #cont-interno {
+        max-width: 80%;
+        min-height: 30%;
+    }
+
+
+    #btn-anterior {
+        left: -8%;
+    }
+
+
+    #btn-siguiente {
+        right: -8%;
+    }
+
+}
+
+
+/* Laptop L */
+
+
+
+/* 4k */
+
+
+
+
+
