@@ -168,10 +168,92 @@ button {
 }
 
 
+
+/*cel*/
+@media (max-width: 667px) and (orientation: landscape) {
+    body {
+        background-image: url(../assets/img/ai-generated.jpg);
+    }
+
+    #imagenes {
+        max-width: 90%;
+        min-width: 35%;
+        margin: 20px;
+    }
+    
+    #img-activa {
+        max-height: 100vh;
+    }
+
+    #cont-interno {
+        max-width: 70%;
+        min-height: 25%;
+        margin: 10px;
+    }
+
+    #btn-cerrar {
+        top: 1%;
+        right: -10%;
+    }
+
+    #btn-anterior {
+        left: -5%;
+    }
+
+
+    #btn-siguiente {
+        right: -5%;
+    }
+
+}
+
+
 /*cel*/
 @media (max-width: 720px) and (orientation:portrait) {
     body {
         background-image: url(../assets/img/ai-generated.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #imagenes {
+        max-width: 90%;
+        min-width: 35%;
+        margin: 20px;
+    }
+    
+    #img-activa {
+        max-width: 100%;
+    }
+
+    #cont-interno {
+        max-width: 70%;
+        min-height: 25%;
+        margin: 10px;
+    }
+
+    #btn-cerrar {
+        top: -5%;
+        right: -8%;
+    }
+
+    #btn-anterior {
+        left: -5%;
+    }
+
+
+    #btn-siguiente {
+        right: -5%;
+    }
+
+}
+
+/*cel*/
+
+@media (max-width: 720 px) and (orientation: landscape) {
+    body {
+        background-image: url(../assets/img/ai-generated.jpg);
+        background-size: 100vw;
     }
 
     #imagenes {
@@ -180,7 +262,7 @@ button {
     }
     
     #img-activa {
-        max-width: 100%;
+        max-height: 100vh;
 
     }
 
@@ -202,11 +284,12 @@ button {
     #btn-siguiente {
         right: -5%;
     }
-
 }
 
 
-@media (max-width: 720px) and (orientation:portrait) {
+
+/*cel*/
+@media (max-width: 896px) and (orientation: landscape) {
     body {
         background-image: url(../assets/img/ai-generated.jpg);
     }
@@ -214,89 +297,22 @@ button {
     #imagenes {
         max-width: 90%;
         min-width: 35%;
+        margin: 20px;
     }
     
     #img-activa {
-        max-width: 100%;
-
+        max-height: 100vh;
     }
 
     #cont-interno {
         max-width: 70%;
         min-height: 25%;
+        margin: 10px;
     }
 
     #btn-cerrar {
-        top: -5%;
-        right: -8%;
-    }
-
-    #btn-anterior {
-        left: -5%;
-    }
-
-
-    #btn-siguiente {
-        right: -5%;
-    }
-
-}
-
-@media (max-width: 720px) and (orientation: landscape) {
-    body {
-        background-image: url(../assets/img/ai-generated.jpg);
-    }
-
-    #imagenes {
-        max-width: 90%;
-        min-width: 35%;
-    }
-    
-    #img-activa {
-        max-width: 100%;
-
-    }
-
-    #cont-interno {
-        max-width: 70%;
-        min-height: 25%;
-    }
-
-    #btn-cerrar {
-        top: -5%;
-        right: -8%;
-    }
-
-    #btn-anterior {
-        left: -5%;
-    }
-
-
-    #btn-siguiente {
-        right: -5%;
-    }
-}
-
-
-@media (max-width: 1600px) and (orientation:landscape) {
-    #imagenes {
-        max-width: 90%;
-        min-width: 35%;
-    }
-    
-    #img-activa {
-        max-width: 100%;
-
-    }
-
-    #cont-interno {
-        max-width: 70%;
-        min-height: 25%;
-    }
-
-    #btn-cerrar {
-        top: -3%;
-        right: -8%;
+        top: 1%;
+        right: -10%;
     }
 
     #btn-anterior {
@@ -331,6 +347,12 @@ button {
     }
 
 
+    #btn-cerrar {
+        top: 1%;
+        right: -10%;
+    }
+
+
     #btn-anterior {
         left: -8%;
     }
@@ -341,6 +363,44 @@ button {
     }
 
 }
+
+
+@media (max-width: 1600px) and (orientation:landscape) {
+    body {
+        background-image: url(../assets/img/ai-generated.jpg);
+    }
+
+    #imagenes {
+        max-width: 90%;
+        min-width: 35%;
+    }
+
+    #img-activa {
+        max-width: : 100%;
+
+    }
+
+    #cont-interno {
+        max-width: 70%;
+        min-height: 25%;
+    }
+
+    #btn-cerrar {
+        top: 2%;
+        right: -10%;
+    }
+
+    #btn-anterior {
+        left: -8%;
+    }
+
+
+    #btn-siguiente {
+        right: -8%;
+    }
+
+}
+
 
 
 /* Laptop L */
