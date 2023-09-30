@@ -249,8 +249,7 @@ button {
 }
 
 /*cel*/
-
-@media (max-width: 720 px) and (orientation: landscape) {
+@media (max-width: 720px) and (orientation: landscape) {
     body {
         background-image: url(../assets/img/ai-generated.jpg);
         background-size: 100vw;
@@ -376,7 +375,7 @@ button {
     }
 
     #img-activa {
-        max-width: : 100%;
+        max-width: 100%;
 
     }
 
