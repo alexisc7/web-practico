@@ -167,101 +167,15 @@ button {
     transition: transform .3s ease;
 }
 
-
-
-/*cel*/
-@media (max-width: 667px) and (orientation: landscape) {
-    body {
-        background-image: url(../assets/img/ai-generated.jpg);
-    }
-
-    #imagenes {
-        max-width: 90%;
-        min-width: 35%;
-        margin: 20px;
-    }
-    
-    #img-activa {
-        max-height: 100vh;
-    }
-
-    #cont-interno {
-        max-width: 70%;
-        min-height: 25%;
-        margin: 10px;
-    }
-
-    #btn-cerrar {
-        top: 1%;
-        right: -10%;
-    }
-
-    #btn-anterior {
-        left: -5%;
-    }
-
-
-    #btn-siguiente {
-        right: -5%;
-    }
-
-}
-
-
 /*cel*/
 @media (max-width: 720px) and (orientation:portrait) {
-    body {
-        background-image: url(../assets/img/ai-generated.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
     #imagenes {
         max-width: 90%;
         min-width: 35%;
-        margin: 20px;
     }
     
     #img-activa {
         max-width: 100%;
-    }
-
-    #cont-interno {
-        max-width: 70%;
-        min-height: 25%;
-        margin: 10px;
-    }
-
-    #btn-cerrar {
-        top: -5%;
-        right: -8%;
-    }
-
-    #btn-anterior {
-        left: -5%;
-    }
-
-
-    #btn-siguiente {
-        right: -5%;
-    }
-
-}
-
-/*cel*/
-@media (max-width: 720px) and (orientation: landscape) {
-    body {
-        background-image: url(../assets/img/ai-generated.jpg);
-        background-size: 100vw;
-    }
-
-    #imagenes {
-        max-width: 90%;
-        min-width: 35%;
-    }
-    
-    #img-activa {
-        max-height: 100vh;
 
     }
 
@@ -283,35 +197,29 @@ button {
     #btn-siguiente {
         right: -5%;
     }
+
 }
 
 
-
-/*cel*/
-@media (max-width: 896px) and (orientation: landscape) {
-    body {
-        background-image: url(../assets/img/ai-generated.jpg);
-    }
-
+@media (max-width: 1600px) and (orientation:landscape) {
     #imagenes {
         max-width: 90%;
         min-width: 35%;
-        margin: 20px;
     }
     
     #img-activa {
-        max-height: 100vh;
+        max-width: 100%;
+
     }
 
     #cont-interno {
         max-width: 70%;
         min-height: 25%;
-        margin: 10px;
     }
 
     #btn-cerrar {
-        top: 1%;
-        right: -10%;
+        top: -3%;
+        right: -8%;
     }
 
     #btn-anterior {
@@ -324,9 +232,6 @@ button {
     }
 
 }
-
-
-
 
 /*Laptop*/
 @media (max-width: 1024px) {
@@ -364,51 +269,7 @@ button {
 }
 
 
-@media (max-width: 1600px) and (orientation:landscape) {
-    body {
-        background-image: url(../assets/img/ai-generated.jpg);
-    }
-
-    #imagenes {
-        max-width: 90%;
-        min-width: 35%;
-    }
-
-    #img-activa {
-        max-width: 100%;
-
-    }
-
-    #cont-interno {
-        max-width: 70%;
-        min-height: 25%;
-    }
-
-    #btn-cerrar {
-        top: 2%;
-        right: -10%;
-    }
-
-    #btn-anterior {
-        left: -8%;
-    }
-
-
-    #btn-siguiente {
-        right: -8%;
-    }
-
-}
-
-
-
 /* Laptop L */
 
 
-
 /* 4k */
-
-
-
-
-
